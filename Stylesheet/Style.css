@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: auto;
+}
+
+.head-section {
+    height: 100px;
+}
+
+.head-adjust {
+    width: 1150px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+}
+
+.head-adjust h1 {
+    float: left;
+    font-size: 1.2rem;
+}
+
+.head-adjust button {
+    float: right;
+    margin-right: 25px;
+    margin-top: 40px;
+    border: none;
+}
+
+.head-adjust button a {
+    display: block;
+    padding: 7px 14px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #F64F64;
+    border: #F64F64 0.5px solid;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.mid-section {
+    text-align: center;
+    background-image: url(/Images/mid-background.jpg);
+    height: 500px;
+    color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.mid-section .overlay h1 {
+    padding: 100px 0 30px 0;
+    font-weight: 900;
+    font-size: 2.25rem;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    width: 100%;
+}
+
+.mid-section .overlay h3 {
+    margin: 15px 0 50px 0;
+}
+
+.overlay button {
+    border: none;
+    border-radius: 5px;
+}
+
+.mid-section .overlay button a {
+    display: block;
+    padding: 18px 36px;
+    text-decoration: none;
+    background-color: #F64F64;
+    border: #F64F64 0.5px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.lower-adjust {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.lower1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lower-image {
+    height: 500px;
+    width: 575px;
+    float: left;
+    background-image: url(/Images/pills-torrent.png);
+    background-size: cover;
+}
+
+.lower-desc {
+    float: left;
+    height: 500px;
+    width: 575px;
+}
+
+.lower-desc h1 {
+    margin: 100px 0 30px 0;
+    display: block;
+}
+
+.lower-desc p {
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.hr1 {
+    border: none;
+    border-top: #000 3px solid;
+    height: 5px;
+}
+
+.lower2 {
+    padding-top: 100px;
+}
+
+.lower-image2 {
+    height: 500px;
+    width: 575px;
+    float: left;
+    background-image: url(/Images/pills-anonymous.png);
+    background-size: cover;
+}
